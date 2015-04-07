@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+		
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+
+h1{
+	text-align: center;
+}
+
+nav, li{
+	display: inline-block;
+}
+
+.masthead{
+	background-image: url("../image/logo.svg"), url("../image/masthead-bg.png");
+	background-repeat: no-repeat, repeat;
+
+}
