@@ -6,9 +6,28 @@ html {
   box-sizing: inherit;
 }
 
-img{
+.rocks{
 	width: 100%;
-	display: block;
+	z-index: 0;
+}
+
+.gradient{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(to bottom,  #FFFFFF, #000000);
+	margin: -51.5
+	px;
+	z-index: 99;
+}
+
+.bugs1, .bugs2{
+	width: 50%;
+	display: inline-block;
+	margin: 0;
+}
+
+.bug2{
+	margin-left: -50px;
 }
 
 h1{
@@ -21,6 +40,25 @@ nav, li{
 
 .masthead{
 	background-image: url("../image/logo.svg"), url("../image/masthead-bg.png");
+	background-size: 75px auto, 200px;
+	padding-top: 6em;
 	background-repeat: no-repeat, repeat;
+	background-position: center 10px, left top;
+}
+
+
+
+.btn1, .btn2, .btn3, .btn4{
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #A8AE98;
+	background-image: linear-gradient(to bottom, #6FC000, #349946);
+	position: absolute;
+}
+
+.footer{
 
 }
