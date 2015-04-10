@@ -18,8 +18,9 @@ img{
 
 .masthead{
 	background-image: url("../image/logo.svg"), url("../image/masthead-bg.png");
-	background-size: 75px auto, 75px auto, 100px auto;
+	background-size: 33px auto, 33px auto, 70px auto;
 	background-repeat: no-repeat, no-repeat,repeat;
+	background-position: 5% 15%, 95%, 15%, left top;
 	text-align: center;
 	font-size: 3em;
 	color: #512200;
@@ -49,4 +50,42 @@ a{
 	font-size: 1.5rem;
 	padding-bottom: 1.092px;
 	color: #fff;
+}
+
+li:hover, nav li {
+  background-color: rgba(81, 34, 0, 0.5);
+}
+
+.bg{
+	position: relative;
+	width: 100%;
+}
+
+.bg p{
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 0.3em;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.ant-nest img {
+	width: 50%;
+	float: left;
+}
+
+.stag img {
+	width: 50%;
+	float: left;
+}
+
+.dung img {
+	width: 50%;
+	float: left;
+}
+
+.tortoise img {
+	width: 50%;
+	float: left;
 }
