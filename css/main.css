@@ -18,10 +18,10 @@ img{
 }
 
 .masthead{
-	background-image: url("../image/logo.svg"), url("../image/masthead-bg.png");
-	background-size: 33px auto, 33px auto, 70px auto;
-	background-repeat: no-repeat, repeat;
-	background-position: 5% 15%, 95%, 15%, left top;
+	background-image: url("../image/logo.svg"), url("../image/logo.svg"), url("../image/masthead-bg.png");
+	background-size: 33px auto, 33px auto, 100px auto;
+	background-repeat: no-repeat, no-repeat,repeat;
+	background-position: 5% 15%, 95% 15%, left top;
 	text-align: center;
 	color: #512200;
 	margin: 0;
@@ -29,9 +29,9 @@ img{
 
 h1{
 	margin: 0;
-	font-size: 36pt;
+	font-size: 30pt;
 	font-weight: 900;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
@@ -101,7 +101,6 @@ figcaption {
   display: block;
   background-color: #388200;
   border-radius: 12px;
-  font-size: 5pt;
   font-weight: 50;
   text-align: center;
   margin-left: 20%;
@@ -114,6 +113,11 @@ figcaption {
   bottom: 1em;
   padding: .4em;
   background: linear-gradient(to bottom, #6fc000, #388200);
+}
+
+figcaption:hover {
+	background-color: #388200;
+	background: linear-gradient(to bottom, #388200, #214d00);
 }
 
 footer {
